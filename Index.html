@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image Inpainting Tool</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; }
+        canvas { border: 1px solid black; margin-top: 20px; }
+        #resultImg { margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <h1>Image Inpainting Tool</h1>
+    <input type="file" id="imageInput" accept="image/*">
+    <canvas id="canvas"></canvas>
+    <button id="inpaintButton">Inpaint</button>
+    <img id="resultImg" style="display: none;">
+    <script src="script.js"></script>
+</body>
+</html>
